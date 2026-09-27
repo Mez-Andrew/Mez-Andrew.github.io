@@ -1,14 +1,11 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 
 .owl-theme .owl-controls{
+	margin-top: 10px;
 	text-align: center;
-}
-
-.owl-wrapper-outer{
-	padding: 10% 0 5% 0;
 }
 
 /* Styling Next and Prev buttons */
@@ -24,7 +21,7 @@
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background: #ffffff;
+	background: #869791;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
 }
@@ -53,7 +50,7 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #ffffff;
+	border:1px solid #333;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
