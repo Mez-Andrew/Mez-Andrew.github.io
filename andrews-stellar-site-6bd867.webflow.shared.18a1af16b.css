@@ -3831,7 +3831,7 @@ label {
 }
 
 .hero-heading-small {
-  margin-left: 25px;
+  margin-left: 0;
 }
 
 .hero-heading-small.body-text-1 {
@@ -3850,8 +3850,9 @@ label {
 .hero-heading-wrap {
   overflow-wrap: anywhere;
   flex: 0 auto;
+  flex-flow: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -3982,7 +3983,7 @@ label {
 
 .body-text-1.cc-1 {
   position: relative;
-  bottom: 10px;
+  bottom: 0;
 }
 
 .body-text-1.error {
@@ -5135,7 +5136,7 @@ label {
   .hero-heading-wrap {
     flex-flow: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .collection-list-wrap.cc-1, .collection-list-wrap.cc-2, .collection-list-wrap.cc-3, .collection-list-wrap.cc-4 {
