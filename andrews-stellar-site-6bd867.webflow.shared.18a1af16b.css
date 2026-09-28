@@ -3850,9 +3850,9 @@ label {
 .hero-heading-wrap {
   overflow-wrap: anywhere;
   flex: 0 auto;
-  flex-flow: column;
+  flex-flow: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: baseline;
   margin-left: auto;
   margin-right: auto;
   display: flex;
